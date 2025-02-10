@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
     }
     private fun intiArrayOfUsers(){
         users= ArrayList<User>()
-        for(i in 1..10){
+        for(i in 1..5){
             users.add(User(i,i,"User "+ i))
         }
     }
